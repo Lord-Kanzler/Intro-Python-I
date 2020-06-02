@@ -32,7 +32,7 @@ import calendar
 from datetime import datetime
 
 
-def myCalendar():
+def Calendar():
     y = input("Input the year : ")
     if y:
         y = int(y)
@@ -46,4 +46,4 @@ def myCalendar():
     print(calendar.month(y, m))
 
 
-myCalendar()
+Calendar()
